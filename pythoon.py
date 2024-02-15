@@ -1,18 +1,9 @@
-def calculate_rectangle_area(length, width):
-    """
-    Calculate the area of a rectangle.
+# Define the two numbers
+num1 = 10
+num2 = 20
 
-    Parameters:
-    length (float): The length of the rectangle.
-    width (float): The width of the rectangle.
+# Add the numbers
+sum = num1 + num2
 
-    Returns:
-    float: The area of the rectangle.
-    """
-    return length * width
-
-# Example usage:
-length = 5
-width = 3
-area = calculate_rectangle_area(length, width)
-print("The area of the rectangle is:", area)
+# Display the result
+print("The sum of", num1, "and", num2, "is", sum)
